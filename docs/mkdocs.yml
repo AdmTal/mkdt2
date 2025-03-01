@@ -1,23 +1,15 @@
-### Site metadata ###
-
-site_name: MkDocs Quickstart
+site_name: Adam Test
 site_description: Starter template for a MkDocs docs site on GH Pages - including CI
-site_url: https://michaelcurrin.github.io/mkdocs-quickstart/
 
-repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart
-edit_uri: edit/master/docs/docs
-
-### Build settings ###
-
-theme: readthedocs
+theme: dracula
 
 nav:
   - Home: index.md
-  - About MkDocs: about-mkdocs.md
-  - Tutorial:
-      - TL;DR: tutorial/tldr.md
-      - Installation: tutorial/installation.md
-      - Set up project: tutorial/setup-project.md
-      - Advanced: tutorial/advanced.md
-      - Usage: tutorial/usage.md
-      - Deploy: tutorial/deploy.md
+  - Folder:
+      - Page 1: pages/page_1.md
+      - Page 2: pages/page_2.md
+
+plugins:
+  - search
+  - mermaid2
+
